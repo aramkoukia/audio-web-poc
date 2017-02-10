@@ -27,6 +27,8 @@
     <Content Include="app\components\osc.component.html" />
     <Content Include="app\components\bash.component.html" />
     <Content Include="index.html" />
+    <Content Include="karma.conf.js" />
+    <Content Include="protractor.conf.js" />
     <Content Include="systemjs.config.js" />
   </ItemGroup>
   <ItemGroup>
@@ -41,6 +43,18 @@
     <TypeScriptCompile Include="app\components\bash.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\MaterialDesignLiteUpgradeElement.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="deploy.cmd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="angular-cli.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".deployment" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
