@@ -10,4 +10,10 @@ declare var __moduleName: string;
     //directives: [MDL]
 })
 export class MultiChannelComponent {
+    constructor() {
+        //this.name = 'Angular2';
+        //let context = new AudioContext();
+        //console.debug(context);
+    }  
+
 }
