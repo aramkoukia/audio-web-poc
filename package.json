@@ -1,10 +1,10 @@
 {
   "name": "audio-web-poc",
   "version": "0.2.0",
-  "description": "Blank Angular 2 project template",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"npm run serve\" ",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "wsrv -s -o -l",
     "tsc": "tsc",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DenisVuyka/ng2samples-blank.git"
+    "url": "git+https://github.com/aramkoukia/audio-web-poc.git"
   },
   "keywords": [
     "angular2",

@@ -1,4 +1,4 @@
-System.register(["@angular/core", "@angular/platform-browser", "@angular/router", "./app.component", "./components/bash.component", "./components/osc.component"], function (exports_1, context_1) {
+System.register(["@angular/core", "@angular/platform-browser", "@angular/router", "./app.component", "./components/bash.component", "./components/osc.component", "./components/multichannel.component", "./components/samplerates.component", "./components/playbackprecision.component", "./components/syncprecision.component", "./components/mediaerrorchecking.component"], function (exports_1, context_1) {
     "use strict";
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -7,7 +7,7 @@ System.register(["@angular/core", "@angular/platform-browser", "@angular/router"
         return c > 3 && r && Object.defineProperty(target, key, r), r;
     };
     var __moduleName = context_1 && context_1.id;
-    var core_1, platform_browser_1, router_1, app_component_1, bash_component_1, osc_component_1, appRoutes, AppModule;
+    var core_1, platform_browser_1, router_1, app_component_1, bash_component_1, osc_component_1, multichannel_component_1, samplerates_component_1, playbackprecision_component_1, syncprecision_component_1, mediaerrorchecking_component_1, appRoutes, AppModule;
     return {
         setters: [
             function (core_1_1) {
@@ -27,6 +27,21 @@ System.register(["@angular/core", "@angular/platform-browser", "@angular/router"
             },
             function (osc_component_1_1) {
                 osc_component_1 = osc_component_1_1;
+            },
+            function (multichannel_component_1_1) {
+                multichannel_component_1 = multichannel_component_1_1;
+            },
+            function (samplerates_component_1_1) {
+                samplerates_component_1 = samplerates_component_1_1;
+            },
+            function (playbackprecision_component_1_1) {
+                playbackprecision_component_1 = playbackprecision_component_1_1;
+            },
+            function (syncprecision_component_1_1) {
+                syncprecision_component_1 = syncprecision_component_1_1;
+            },
+            function (mediaerrorchecking_component_1_1) {
+                mediaerrorchecking_component_1 = mediaerrorchecking_component_1_1;
             }
         ],
         execute: function () {
@@ -34,6 +49,11 @@ System.register(["@angular/core", "@angular/platform-browser", "@angular/router"
             appRoutes = [
                 { path: 'bash', component: bash_component_1.BashComponent },
                 { path: 'osc', component: osc_component_1.OscComponent },
+                { path: 'multichannel', component: multichannel_component_1.MultiChannelComponent },
+                { path: 'samplerates', component: samplerates_component_1.SampleRatesComponent },
+                { path: 'playbackprecision', component: playbackprecision_component_1.PlaybackPrecisionComponent },
+                { path: 'syncprecision', component: syncprecision_component_1.SyncPrecisionComponent },
+                { path: 'mediaerrorchecking', component: mediaerrorchecking_component_1.MediaErrorCheckingComponent },
             ];
             AppModule = (function () {
                 function AppModule() {
@@ -43,7 +63,7 @@ System.register(["@angular/core", "@angular/platform-browser", "@angular/router"
             AppModule = __decorate([
                 core_1.NgModule({
                     imports: [platform_browser_1.BrowserModule, router_1.RouterModule.forRoot(appRoutes)],
-                    declarations: [app_component_1.AppComponent, bash_component_1.BashComponent, osc_component_1.OscComponent],
+                    declarations: [app_component_1.AppComponent, bash_component_1.BashComponent, osc_component_1.OscComponent, multichannel_component_1.MultiChannelComponent, samplerates_component_1.SampleRatesComponent, playbackprecision_component_1.PlaybackPrecisionComponent, syncprecision_component_1.SyncPrecisionComponent, mediaerrorchecking_component_1.MediaErrorCheckingComponent],
                     bootstrap: [app_component_1.AppComponent]
                 })
             ], AppModule);

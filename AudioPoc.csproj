@@ -24,6 +24,11 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="app\app.component.html" />
+    <Content Include="app\components\mediaerrorchecking.component.html" />
+    <Content Include="app\components\syncprecision.component.html" />
+    <Content Include="app\components\playbackprecision.component.html" />
+    <Content Include="app\components\samplerates.component.html" />
+    <Content Include="app\components\multichannel.component.html" />
     <Content Include="app\components\osc.component.html" />
     <Content Include="app\components\bash.component.html" />
     <Content Include="index.html" />
@@ -39,6 +44,11 @@
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\components\mediaerrorchecking.component.ts" />
+    <TypeScriptCompile Include="app\components\syncprecision.component.ts" />
+    <TypeScriptCompile Include="app\components\playbackprecision.component.ts" />
+    <TypeScriptCompile Include="app\components\samplerates.component.ts" />
+    <TypeScriptCompile Include="app\components\multichannel.component.ts" />
     <TypeScriptCompile Include="app\components\osc.component.ts" />
     <TypeScriptCompile Include="app\components\bash.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
