@@ -1,7 +1,7 @@
 {
-  "name": "AudioPoc",
+  "name": "audio-web-poc",
   "version": "0.2.0",
-  "description": "",
+  "description": "Blank Angular 2 project template",
   "main": "index.js",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"npm run serve\" ",
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/DenisVuyka/ng2samples-blank.git"
   },
   "keywords": [
     "angular2",
     "template"
   ],
-  "author": "Aram Koukia",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/aramkoukia/audio-web-poc/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/aramkoukia/audio-web-poc#readme",
   "dependencies": {
     "@angular/common": "~2.2.0",
     "@angular/compiler": "~2.2.0",
